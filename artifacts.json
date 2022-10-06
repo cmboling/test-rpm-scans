@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "packageVersion": "1.1.0",
+      "packageSpec": "@yarnpkg/lockfile",
+      "location": "NPM"
+    },
+    {
+      "packageVersion": "7.0.0-beta.40",
+      "packageSpec": "@babel/helper-module-imports",
+      "location": "NPM"
+    },
+    {
+      "packageVersion": "7.0.0-beta.40",
+      "packageSpec": "@babel/types",
+      "location": "NPM"
+    },
+    {
+      "packageVersion": "2.0.0",
+      "packageSpec": "to-fast-properties",
+      "location": "NPM"
+    },
+    {
+      "packageVersion": "1.0.3",
+      "packageSpec": "to-fast-properties",
+      "location": "NPM"
+    }
+  ]
+}

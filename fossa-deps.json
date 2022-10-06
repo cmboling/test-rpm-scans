@@ -1,0 +1,71 @@
+{
+  "vendored-dependencies": [
+    {
+      "name": "libcgroup-0",
+      "path": "libcgroup-0.41-19.el8.x86_64.rpm"
+    },
+    {
+      "name": "libslirp-4",
+      "path": "libslirp-4.3.1-1.module+el8.3.1+9803+64eb0fd6.x86_64.rpm"
+    },
+    {
+      "name": "docker-scan-plugin-0",
+      "path": "docker-scan-plugin-0.7.0-3.el8.x86_64.rpm"
+    },
+    {
+      "name": "Cython-0",
+      "path": "Cython-0.19-5.el7.src.rpm"
+    },
+    {
+      "name": "slirp4netns-1",
+      "path": "slirp4netns-1.1.8-1.module+el8.3.1+9857+68fb1526.x86_64.rpm"
+    },
+    {
+      "name": "fuse-overlayfs-1",
+      "path": "fuse-overlayfs-1.3.0-2.module+el8.3.1+9857+68fb1526.x86_64.rpm"
+    },
+    {
+      "name": "testdocker-scan-plugin-0",
+      "path": "test1/testdocker-scan-plugin-0.7.0-3.el8.x86_64.rpm"
+    },
+    {
+      "name": "testlibcgroup-0",
+      "path": "test1/test3/testlibcgroup-0.41-19.el8.x86_64.rpm"
+    },
+    {
+      "name": "testlibslirp-4",
+      "path": "test1/test3/test4/testlibslirp-4.3.1-1.module+el8.3.1+9803+64eb0fd6.x86_64.rpm"
+    },
+    {
+      "name": "testfuse-overlayfs-1",
+      "path": "test1/test2/testfuse-overlayfs-1.3.0-2.module+el8.3.1+9857+68fb1526.x86_64.rpm"
+    }
+  ],
+  "referenced-dependencies": [
+    {
+      "type": "npm",
+      "name": "@yarnpkg/lockfile",
+      "version": "1.1.0"
+    },
+    {
+      "type": "npm",
+      "name": "@babel/helper-module-imports",
+      "version": "7.0.0-beta.40"
+    },
+    {
+      "type": "npm",
+      "name": "@babel/types",
+      "version": "7.0.0-beta.40"
+    },
+    {
+      "type": "npm",
+      "name": "to-fast-properties",
+      "version": "2.0.0"
+    },
+    {
+      "type": "npm",
+      "name": "to-fast-properties",
+      "version": "1.0.3"
+    }
+  ]
+}
