@@ -20,7 +20,7 @@ def saveFossaDepsJson(dictionary):
     file.close()
 
 def findRpmTarVendoredDependencies():
-
+    reg = re.compile('[a-zA-Z0-9\.-_]')
     rpm_and_tar = []
 
     # walk the root of this current dir
