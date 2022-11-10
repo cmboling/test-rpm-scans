@@ -25,6 +25,8 @@ jobs:
       - name: Convert dependencies
         run: |
           python fossa-deps-conversion.py
+          
+          cat fossa-deps.json
   
       - name: Running FOSSA CLI
         run: |
