@@ -28,11 +28,17 @@ jobs:
           
           cat fossa-deps.json
   
-      - name: Running FOSSA CLI
+      - name: Download FOSSA CLI
         run: |
           curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
           fossa --version
+          
+      - name: FOSSA Analyze Output
+        run: |
           fossa analyze -o | jq
+
+      - name: FOSSA Analyze 
+        run: |
           fossa analyze --exclude-path . --debug
           
       - uses: actions/upload-artifact@v3
