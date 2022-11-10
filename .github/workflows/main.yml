@@ -32,4 +32,10 @@ jobs:
         run: |
           curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
           fossa --version
-          fossa analyze --exclude-path .
+          fossa analyze -o | jq
+          fossa analyze --exclude-path . --debug
+          
+      - uses: actions/upload-artifact@v3
+        with:
+          name: fossa-debug-logs
+          path: ./fossa.debug.json.gz
