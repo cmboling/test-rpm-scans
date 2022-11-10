@@ -38,7 +38,7 @@ def findRpmTarVendoredDependencies():
 
             # take out dupes
             if not any(dep.get('name', None) == filename for dep in vendoredDeps["vendored-dependencies"]):
-                vendoredDeps["vendored-dependencies"].append({"name": filename, "path":path})
+                vendoredDeps["vendored-dependencies"].append({"name": "".join(reg.findall(filename)), "path":path})
 
         print('Converted vendored dependencies...')
         return vendoredDeps
